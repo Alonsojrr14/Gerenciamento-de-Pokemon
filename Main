@@ -7,8 +7,6 @@ int main()
     visualizar();
     nome(2, "Bayleaf");
     visualizar();
-
-    //Free_Poke(5);
     
     atk1(1, "Ataque Rapido");
     visualizar();

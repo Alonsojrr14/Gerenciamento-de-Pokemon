@@ -1,0 +1,16 @@
+#include "Box.h"
+
+int main()
+{
+    Add_Poke("Pikachu", 1, 17, "Eletrico", "Investida", "Choque do Trovão", "Ataque Rápido", "Investida Relâmpago" );
+    Add_Poke("Chikorita", 2, 100, "Grama", "Investida", "Folha Navalha", "Chicotes de Vinha", "Raio Solar");
+    visualizar();
+    nome(2, "Bayleaf");
+    visualizar();
+
+    //Free_Poke(5);
+    
+    atk1(1, "Ataque Rapido");
+    visualizar();
+    return 0;
+}
